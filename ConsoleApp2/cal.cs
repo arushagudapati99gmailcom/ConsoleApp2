@@ -8,7 +8,11 @@ namespace ConsoleApp2
 {
     public class cal
     {
-        public int Add(int a,int b)
+        public static void Main()
+        {
+
+        }
+        public static int Add(int a,int b)
         {
             return a + b;
         }

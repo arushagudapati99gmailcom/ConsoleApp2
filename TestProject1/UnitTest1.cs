@@ -1,15 +1,15 @@
 using ConsoleApp2;
-namespace TestProject1
+namespace TestProject1;
+
+[TestClass]
+
+public class cal
 {
-    [TestClass]
-    public class UnitTest1
+    [TestMethod]
+    public void TestAdd()
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-            cal c = new cal();
-            int res = c.Add(10, 20);
-            Assert.AreEqual(30, res);
-        }
+        cal c = new cal();
+        int res = ConsoleApp2.cal.Add(10, 20);
+        Assert.AreEqual(30, res);
     }
 }
